@@ -1,0 +1,29 @@
+************* DEFINITIONS *****************
+
+* Variables
+    Las variables son como una cajita donde guardaremos un tipo de dato. Ya sea númerico, string, booleano, constante, función, arreglo, null o undefined.
+	
+    
+* Strings
+    Los strings son cadenas de texto que se pueden almacenar en una variable o no. La manera de definir un string es colocandolo dentro de comillas simples, dobles o backticks (``). 
+    Ejemplo:
+    "Soy un string";
+    'Soy un string';
+    `Soy un string`;
+
+
+* Funciones (argumentos, `return`)
+    Las Funciones son trozos o bloques de código que realizan una tarea que puede ser muy repetitiva. Utilizamos funciones cuando no queremos estar repitiendo los mismo trozos de código una y otra vez. Las funciones pueden llevar o no argumentos y también pueden o no retornarnos algún valor.
+
+
+
+* Declaraciones `if`
+    Una declaración if es un bloque de código que se ejecutará solo si se valida a true el código que tiene dentro de sus parentesis 
+    if (true){
+        console.log(`Este mensaje siempre se mostrará, ya que el if es true`);
+    }
+
+
+
+* Valores booleanos (`true`, `false`)
+    Los valores booleanos son valores true y false. Se deben escribir sin comillas ya que "true" o 'false' serian strings y no valores booleanos.
