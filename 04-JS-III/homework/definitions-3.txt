@@ -1,0 +1,4 @@
+********************* DEFINITIONS **********************
+
+* Arrays
+    Un array es una lista o colección que se define mediante corchetes [] y puede contener en su interior diferente tipos de elementos que pueden ser números, strings, booleanos, otros arreglos, funciones, objetos, null y undefined.
