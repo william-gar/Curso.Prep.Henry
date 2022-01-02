@@ -1,0 +1,18 @@
+********************* DEFINITIONS ***********************
+
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+* `for`
+    El bucle for nos permite ejecutar una tarea una cantidad específica de veces. Se compone de tres argumentos: (la inicialización; la condición de parada; y la cantidad de incremento o decremento).
+
+
+* `&&` 
+    El operador AND devuelve true si ambos o todos los operandos son verdaderos. El operador AND dejará de evaluar en cuanto encuentre el primer operando false.
+
+
+*`||`
+    El operador OR devuelve true si uno o mas operandos son verdadero. El operador OR dejará de evaluar en cuanto encuentre el primer operando true.
+
+
+*`!`
+    El operador NOT negará o nos dará como resultado todo lo contrario a la expresión que estemos evaluando. Por ejemplo si hacemos lo siguiente console.log(!true) esto imprimirá false en la consola, ya que lo contrario a true es false.
