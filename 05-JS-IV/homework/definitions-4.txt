@@ -1,0 +1,49 @@
+
+* Objetos
+    Son una estructura en donde podemos almacenar propiedades con su valor, key: value. Podemos almacenar cualquier tipo de dato que pueden ser números, strings, booleanos, arreglos, funciones y objetos.
+
+
+* Propiedades
+    Las propiedades son las claves o datos que describen el valor que almacena, dicho valor puede ser un número, string, booleano, arreglo, funcion o un objeto.
+
+
+* Métodos
+    Los métodos son las funciones que tiene el objeto. Dichos métodos pueden por ejemplo especificar una acción del objeto.
+
+
+* Bucle `for…in`
+    Es un bucle que nos permitirá iterar por cada una de las claves del objeto y finalizará cuando se haya recorrido todas las claves.
+
+
+* Notación de puntos vs notación de corchetes
+    El Dot notation(notación de puntos) es facil de escribir ya que lo hacemos mediante un punto. El Dot notation es literal, si lo usamos seguido de una variable lo tomará literalmente como si fuera el nombre de una propiedad del objeto. Con la Bracket Notation(notación de corchetes) si podemos utilizar una variable ya que accederá al valor de la variable y no a su nombre literal.
+
+    Dot Notation     ---> objeto.propiedad;
+    Bracket Notation ---> objeto[propiedad];
+                          objeto['propiedad'];
+
+
+* This
+    Es una palabra clave de JavaScript que podemos usar dentro de un método para referirnos al objeto actual en el que se esté utilizando el método.
+
+    Ejemplo:
+
+    function saludar() {
+        console.log(`Hola, soy ${this.name}`);
+    }
+
+    const William = {
+        name: 'William',
+        age: 30,
+        saludar: saludar,
+    }
+
+    const Diego = {
+        name: 'Diego',
+        age: 27,
+    }
+
+    Diego.saludar = saludar; //Agregamo al objeto Diego el método saludar();
+
+    William.saludar(); // Hola, soy William;
+    Diego.saludar();   // Hola, soy Diego;
