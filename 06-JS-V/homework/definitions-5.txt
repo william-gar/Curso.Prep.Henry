@@ -1,0 +1,27 @@
+************* DEFINITIONS ****************
+
+* `prototype`
+    El prototype es una propiedad de las clases que nos sirve para establecer sus métodos(funciones) una sola vez y así evitarnos tener que repetirlas en cada clase, ya que en una aplicación grande con miles de objetos instanciados de la misma clase no es escalable que se repitan en cada uno de esos objetos las mismas líneas de código del o los métodos.
+
+    Ejemplo:
+
+    function Auto(marca, anio) {
+        this.marca = marca;
+        this.anio = anio; 
+        // Es preferible no utilizar la letra ñ. Ya que el idioma inglés en si no tiene ni letras ñ ni tildes.
+    }
+
+    Auto.propotype.descripcion = function(){
+        return `Este auto es de marca ${this.marca}, del año ${this.anio}.`;
+    }
+
+    let volvo = new Auto('Volvo', 2014);
+    let mitsubishi = new Auto('Mitsubishi', 2020);
+
+    console.log(volvo.descripcion());       //Este auto es de marca Volvo, del año 2014.
+    console.log(mitsubishi.descripcion());  //Este auto es de marca Mitsubishi, del año 2020.
+
+
+
+* _Constructors_ (de Clases)
+    En JavaScript cuando instanciamos un objeto, funciona como constructor todo el código declarado dentro de la función, que en este caso la llamamos funcion constructora mediante la cuál podemos instanciar otros objetos.
