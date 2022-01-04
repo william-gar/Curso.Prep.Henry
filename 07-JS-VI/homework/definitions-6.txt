@@ -1,0 +1,16 @@
+**************** DEFINITIONS *****************
+
+* Funciones Callback
+    Las funciones Callback son funciones que reciben como argumento otra función. Por convención se escribe cb como argumento para la variable que se usará como Callback.
+
+    Ejemplo:
+
+    function decirNombre(persona){
+        return `Mi nombre es ${persona}`;
+    }
+
+    function crearPersona(persona, cb){
+        return cb(persona);
+    }
+
+    crearPersona('William', decirNombre); //'Mi nombre es William'
