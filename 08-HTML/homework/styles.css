@@ -18,3 +18,77 @@ img {
   font-size: 18px;
   margin: 50px;
 }
+
+/**********************Extra****************************/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: linear-gradient(
+      to left,
+      hsla(123, 61%, 46%, 0.807),
+      hsla(100, 69%, 48%, 0.856)
+    ),
+    url(https://blog.soyhenry.com/content/images/size/w2000/2021/04/BLOG-educacion--1-.jpg);
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.divClass {
+  /* border: 1px solid #000; */
+  text-align: center;
+}
+
+h1,
+h3,
+h4 {
+  font-family: sans-serif;
+  background-color: #fff;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+h4 {
+  margin-bottom: 30px;
+  box-shadow: 2px 2px 2px #000;
+}
+
+#thirdDiv {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  background-color: rgba(60, 206, 133, 0.5);
+}
+
+#spanId {
+  font-size: 20px;
+  font-family: monospace;
+  display: block;
+  /* border: 1px solid #000; */
+  margin-bottom: 5px;
+}
+
+a {
+  /* border: 1px solid #000; */
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-style: italic;
+  background-color: skyblue;
+  color: #000;
+}
+
+#thirdDiv ul {
+  list-style: none;
+}
+
+#thirdDiv ul li img {
+  border: 1px solid #000;
+  border-radius: 5px;
+  width: 400px;
+  height: 300px;
+}
