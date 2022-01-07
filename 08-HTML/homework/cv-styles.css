@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #eeffff;
+}
+
+h1 {
+  height: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #222;
+  color: gold;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.description {
+  margin-top: 100px;
+}
+
+section {
+  width: 60%;
+  margin: auto;
+  border: 1px solid #666;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  padding: 30px;
+  background: rgba(30, 200, 30, 0.3);
+}
+
+h3 {
+  text-align: end;
+  font-size: 20px;
+  font-family: monospace;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 2px #0f0;
+}
+
+p {
+  font-size: 20px;
+}
+
+.education ul li,
+.experience ul li {
+  font-size: 20px;
+}
+
+.content-skills {
+  display: flex;
+  justify-content: space-around;
+}
+
+.content-skills div {
+  border-bottom: 1px solid #000;
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.content-skills .soft-skills {
+  border-right: 1px solid #000;
+  box-shadow: 2px 2px 5px #0f0;
+}
+
+.content-skills .hard-skills {
+  border-right: 1px solid #000;
+  box-shadow: 2px 2px 5px #0f0;
+}
+
+.content-skills div h4 {
+  font-size: 20px;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.content-skills div ul li {
+  list-style-type: square;
+  font-size: 18px;
+  font-family: monospace;
+}
+
+.profile-picture {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-picture img {
+  border: 1px solid #0f0;
+  border-radius: 5%;
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+}
+
+.hobbies ul li {
+  font-size: 18px;
+  font-family: monospace;
+}
+
+footer {
+  height: 50px;
+  background-color: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+footer div h4 {
+  color: #fff;
+  font-family: monospace;
+  font-size: 16px;
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 18px;
+  }
+  .content-skills {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  footer div h4 {
+    text-align: center;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 600px) {
+  section h3 {
+    text-align: center;
+  }
+}
